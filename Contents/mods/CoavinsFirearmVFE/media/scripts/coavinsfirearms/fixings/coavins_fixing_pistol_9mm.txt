@@ -1,0 +1,29 @@
+module coavinsfirearms {
+	imports {
+		Base
+	}
+
+	fixing Fix PistolReceiver_9mm CleaningKit
+	{
+		Require : PistolReceiver_9mm,
+
+		Fixer : CleaningKit=1; Aiming=2,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix PistolSlide_9mm CleaningKit
+	{
+		Require : PistolSlide_9mm,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix PistolBarrel_9mm CleaningKit
+	{
+		Require : PistolBarrel_9mm,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=2,
+	}
+}

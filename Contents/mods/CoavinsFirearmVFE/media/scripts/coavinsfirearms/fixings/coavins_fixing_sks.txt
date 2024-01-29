@@ -1,0 +1,69 @@
+module coavinsfirearms {
+	imports {
+		Base
+	}
+
+	fixing Fix SKS_Receiver CleaningKit
+	{
+		Require : SKS_Receiver,
+
+		Fixer : CleaningKit=1; Aiming=2,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix SKS_GasPiston CleaningKit
+	{
+		Require : SKS_GasPiston,
+
+		Fixer : CleaningKit=1; Aiming=4,
+		Fixer : FireKlean; Aiming=2,
+	}
+
+	fixing Fix SKS_TriggerAssembly CleaningKit
+	{
+		Require : SKS_TriggerAssembly,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=2,
+	}
+
+	fixing Fix SKS_MagazineAssembly CleaningKit
+	{
+		Require : SKS_MagazineAssembly,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=2,
+	}
+
+	fixing Fix SKS_Stock CleaningKit
+	{
+		Require : SKS_Stock,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=2,
+	}
+
+	fixing Fix SKS_BoltCarrier CleaningKit
+	{
+		Require : SKS_BoltCarrier,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix SKS_Bolt CleaningKit
+	{
+		Require : SKS_Bolt,
+
+		Fixer : CleaningKit=1; Aiming=5,
+		Fixer : FireKlean; Aiming=2,
+	}
+
+	fixing Fix SKS_FiringPin CleaningKit
+	{
+		Require : SKS_FiringPin,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=2,
+	}
+}

@@ -1,0 +1,10 @@
+name=CoavinsFirearmVFE
+id=CoavinsFirearmVFE
+author=Ely
+poster=preview.png
+require=coavinsfirearmbase,VFExpansion1
+description=Up to date patch for Coavin's Firearm Repair and Vanilla Firearms Expansion
+description=
+description=This makes sure all VFE weapons are supported as of 1/20/2024
+description=
+description=Use this instead of "coavinsupport3" included with Coavin's Firearm Repair.

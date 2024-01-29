@@ -1,0 +1,21 @@
+module coavinsfirearms {
+	imports {
+		Base
+	}
+
+	fixing Fix RevolverReceiver_38spc CleaningKit
+	{
+		Require : RevolverReceiver_38spc,
+
+		Fixer : CleaningKit=1; Aiming=2,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix RevolverCylinder_38spc CleaningKit
+	{
+		Require : RevolverCylinder_38spc,
+
+		Fixer : CleaningKit=1; Aiming=2,
+		Fixer : FireKlean; Aiming=1,
+	}
+}

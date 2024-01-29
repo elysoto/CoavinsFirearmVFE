@@ -1,0 +1,21 @@
+module coavinsfirearms {
+	imports {
+		Base
+	}
+
+	fixing Fix RevolverReceiver_45lc CleaningKit
+	{
+		Require : RevolverReceiver_45lc,
+
+		Fixer : CleaningKit=1; Aiming=2,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix RevolverCylinder_45lc CleaningKit
+	{
+		Require : RevolverCylinder_45lc,
+
+		Fixer : CleaningKit=1; Aiming=2,
+		Fixer : FireKlean; Aiming=1,
+	}
+}

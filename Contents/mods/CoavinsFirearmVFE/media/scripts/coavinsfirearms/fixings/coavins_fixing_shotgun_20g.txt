@@ -1,0 +1,45 @@
+module coavinsfirearms {
+	imports {
+		Base
+	}
+
+	fixing Fix ShotgunReceiver_20g CleaningKit
+	{
+		Require : ShotgunReceiver_20g,
+
+		Fixer : CleaningKit=1; Aiming=2,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix ShotgunForend_20g CleaningKit
+	{
+		Require : ShotgunForend_20g,
+
+		Fixer : CleaningKit=1; Aiming=2,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix ShotgunBoltCarrier_20g CleaningKit
+	{
+		Require : ShotgunBoltCarrier_20g,
+        
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix ShotgunBolt_20g CleaningKit
+	{
+		Require : ShotgunBolt_20g,
+
+		Fixer : CleaningKit=1; Aiming=4,
+		Fixer : FireKlean; Aiming=2,
+	}
+
+	fixing Fix ShotgunBarrel_20g CleaningKit
+	{
+		Require : ShotgunBarrel_20g,
+
+		Fixer : CleaningKit=1; Aiming=5,
+		Fixer : FireKlean; Aiming=2,
+	}
+}
