@@ -3,13 +3,13 @@ id=3143995054
 title=Coavins Firearm Repair VFE Patch
 description=Up to date patch for Coavin's Firearm Repair and Vanilla Firearms Expansion
 description=
-description=This makes sure all VFE weapons are supported as of 1/20/2024
+description=This makes sure all VFE weapons are supported as of 12/7/2024
 description=
 description=Includes custom icons for the various weapon components.
 description=Made sure the shared components across guns are similar caliber and made sense.
 description=
 description=[h1]Important[/h1]
-description=[b]Use this INSTEAD of the VFE support patch included with Coavin's Firearm Repair as that one is incomplete.[/b]
+description=[b]Use this INSTEAD of the VFE support patch included with Coavin's Firearm Repair as that one is extremely incomplete.[/b]
 description=
 description=Use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2945221351]Mod Load Order[/url] to ensure this mod appears after/below the original mods.
 tags=Build 41;Items;Weapons
